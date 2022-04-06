@@ -2,7 +2,6 @@ import datetime
 import time
 from threading import Thread
 
-
 import sys
 
 sys.path.append("./IOS13-SimulateTouch/layout/usr/lib/python3.7/site-packages/")
@@ -12,14 +11,13 @@ from zxtouch.touchtypes import TOUCH_DOWN, TOUCH_UP
 
 OK_POSITION = (400, 1000)
 OK_COLOR = (47, 204, 48)
-# OK_COLOR = (102, 102, 102)
 
 SUBMIT_POSITION = (700, 1550)
-SUBMIT_COLOR = (254, 72, 41)
-# SUBMIT_COLOR = (254, 128, 106)
+# SUBMIT_COLOR = (254, 72, 41)
+SUBMIT_COLOR = (254, 128, 106)
 
-PAY_POSITION = (700, 1550)
-PAY_COLOR = (254, 72, 41)
+PAY_POSITION = (700, 1670)
+PAY_COLOR = (255, 58, 38)
 
 REFRESH_GAP = 0.05
 COLOR_GAP = 10
@@ -63,7 +61,7 @@ def click_forever(btn_name: str, position: tuple, target_color: tuple):
 btn_list = [
     {"btn_name": "ok", "position": OK_POSITION, "color": OK_COLOR},
     {"btn_name": "submit", "position": SUBMIT_POSITION, "color": SUBMIT_COLOR},
-    # {"btn_name": "pay", "position": PAY_POSITION, "color": PAY_COLOR},
+    {"btn_name": "pay", "position": PAY_POSITION, "color": PAY_COLOR},
 ]
 
 for btn in btn_list:
