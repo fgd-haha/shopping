@@ -26,11 +26,13 @@ device = zxtouch("192.168.31.70")
 # 【我知道了】按钮位置及颜色
 OK_POSITION = (400, 1000)
 OK_COLOR = (47, 204, 48)
-# OK_COLOR = (102, 102, 102)
 
 # 【结算】按钮位置及颜色
 SUBMIT_POSITION = (700, 1550)
 SUBMIT_COLOR = (254, 72, 41)
 # SUBMIT_COLOR = (254, 128, 106)
 
+# 【立即支付】按钮位置及颜色
+PAY_POSITION = (700, 1670)
+PAY_COLOR = (255, 58, 38)
 ```
