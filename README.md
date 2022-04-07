@@ -2,6 +2,10 @@
 
 通过模拟用户点击，快速点击【我知道了】【结算】按钮，在【美团买菜】上抢菜。。。
 
+## 效果：
+
+https://www.youtube.com/shorts/zEwL7KAKADw
+
 ## 风险： 适配 ios 系统，iphone 需要越狱。小心变砖！！！
 
 android 不支持，不过应该比 ios 更简单，大家可以自行探索下。
